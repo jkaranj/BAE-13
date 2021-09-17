@@ -1,0 +1,92 @@
+@font-face {
+    font-family: F16;
+    src: url("../jgm-card/Mistral.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("bg-1.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.body2{
+    /* background-color: rgba(235,235,235,0.5); */
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar{
+    /* height: 8vh; */
+    width: 100vw;
+    background-color: rgba(39, 39, 39, 0.98);
+    /* display: inline-block; */
+    vertical-align: middle;
+    padding: 2% 0;
+    font-family: Mistral;
+}
+.navbar img{
+    display: inline-block;
+    width: 15%;
+    margin-left: 2%;
+    vertical-align: middle;
+}
+.navbar p{
+    color: #ebebeb;
+    display: inline-block;
+    font-size: 6rem;
+    vertical-align: middle;
+    line-height: 0;
+    margin-left: 10%;
+}
+.content{
+    width: 100vw;
+    padding-top: 75px;
+    padding-bottom: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content h1{
+    font-size: 4rem;
+    line-height: 1rem;
+    /* margin-top: 5vh; */
+    margin-left: 50px;
+}
+.content h3{
+    font-size: 3rem;
+    margin-left: 50px;
+
+}
+
+.but-row{
+    width: 100vw;
+    height: 10vh;
+}
+table{
+    width: 100vw;
+    height: 30vh;
+    table-layout: fixed ;
+}
+/* table {
+    table-layout: fixed ;
+    width: 100% ;
+  } */
+  /* td {
+    width: 25% ;
+  } */
+table td{
+    padding: 20px;
+    width: 50%;
+}
+table button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    font-size: 2.8rem;
+    /* background-image: linear-gradient(45deg, #D79E66, #D79E66, #845015); */
+    color: #272727;
+    border: 2px solid #272727;
+    background: none;
+    font-weight: 600;
+}
