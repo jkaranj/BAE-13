@@ -55,25 +55,12 @@ body{
 .content h3{
     font-size: 3rem;
     margin-left: 50px;
-
-}
-
-.but-row{
-    width: 100vw;
-    height: 10vh;
 }
 table{
     width: 100vw;
     height: 30vh;
     table-layout: fixed ;
 }
-/* table {
-    table-layout: fixed ;
-    width: 100% ;
-  } */
-  /* td {
-    width: 25% ;
-  } */
 table td{
     padding: 20px;
     width: 50%;
